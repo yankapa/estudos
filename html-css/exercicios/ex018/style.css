@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+font-family: '/fonts/cloister', Times, serif;
+font-size: 3em;
+font-weight: normal;
+}
+
+@font-face {
+    font-family:'/fonts/cloister' ;
+    src: url('fonts/CloisterBlack.ttf'); 
+    font-weight:normal;
+    font-style:normal;
+}
