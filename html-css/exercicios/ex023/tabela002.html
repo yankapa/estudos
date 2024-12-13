@@ -1,0 +1,120 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num{
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+
+    <title>tabelas</title>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+
+    <table>
+        <caption>população das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 602 865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 075 181</td>
+            </tr>
+            <tr>
+                <td>são paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 000 000</td>
+            </tr>
+            <tr>
+                <td>Manaus</td>
+                <td class="num">4 000 000</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="">17 000 000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total da população</th>
+            <td class="num"><strong>22 842 834</strong></td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maxime quaerat. Cumque veritatis debitis officia possimus sint temporibus exercitationem adipisci repellat laudantium, vel porro nisi est quisquam laborum, magnam corporis!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nostrum molestiae quibusdam saepe distinctio nam ullam quas tempore doloribus amet, exercitationem sequi eveniet facere numquam consectetur dolores quaerat! Voluptatem, error.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt eligendi saepe vitae tempore non maiores odio, temporibus, voluptates optio ipsa dolorem eaque corporis expedita aliquam molestiae ut sint repellendus?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maxime quaerat. Cumque veritatis debitis officia possimus sint temporibus exercitationem adipisci repellat laudantium, vel porro nisi est quisquam laborum, magnam corporis!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nostrum molestiaequibusdam saepe distinctio nam ullam quastempore doloribus amet, exercitationem sequi eveniet facere numquam consectetur dolores quaerat! Voluptatem, error.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt eligendi saepe vitae tempore non maiores odio, temporibus, voluptates optio ipsa dolorem eaque corporis expedita aliquam molestiae ut sint repellendus?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maxime quaerat. Cumque veritatis debitis officia possimus sint temporibus exercitationem adipisci repellat laudantium, vel porro nisi est quisquam laborum, magnam corporis!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nostrum molestiae quibusdam saepe distinctio nam ullam quas tempore doloribus amet, exercitationem sequi eveniet facere numquam consectetur dolores quaerat! Voluptatem, error.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt eligendi saepe vitae tempore non maiores odio, temporibus, voluptates optio ipsa dolorem eaque corporis expedita aliquam molestiae ut sint repellendus?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maxime quaerat. Cumque veritatis debitis officia possimus sint temporibus exercitationem adipisci repellat laudantium, vel porro nisi est quisquam laborum, magnam corporis!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nostrum molestiae quibusdam saepe distinctio nam ullam quas tempore doloribus amet, exercitationem sequi eveniet facere numquam consectetur dolores quaerat! Voluptatem, error.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt eligendi saepe vitae tempore non maiores odio, temporibus, voluptates optio ipsa dolorem eaque corporis expedita aliquam molestiae ut sint repellendus?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, maxime quaerat. Cumque veritatis debitis officia possimus sint temporibus exercitationem adipisci repellat laudantium, vel porro nisi est quisquam laborum, magnam corporis!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporisnostrummolestiae quibusdam saepe distinctio nam ullam quas tempore doloribus amet, exercitationem sequi eveniet facere numquam consectetur dolores quaerat! Voluptatem, error.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deserunt eligendi saepe vitae tempore non maiores odio, temporibus, voluptates optio ipsa dolorem eaque corporis expedita aliquam molestiae ut sint repellendus?
+                </p>
+</body>
+</html>
